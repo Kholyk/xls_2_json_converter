@@ -1,0 +1,48 @@
+{
+  "name": "xls-2-json-converter",
+  "version": "0.0.1",
+  "description": "Based on other packets file converter",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "convert": "dist/bin/convert.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kholyk/xls_2_json_converter.git"
+  },
+  "keywords": [
+    "xls",
+    "json",
+    "converter"
+  ],
+  "author": "Meole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kholyk/xls_2_json_converter/issues"
+  },
+  "dependencies": {
+    "xls-to-json": "*",
+    "readline-sync": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-eslint": "*",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-import": "*"
+  },
+  "homepage": "https://github.com/Kholyk/xls_2_json_converter#readme"
+}
