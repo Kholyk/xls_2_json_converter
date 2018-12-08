@@ -1,6 +1,6 @@
 {
   "name": "xls-to-json-kholyk",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Based on other packets file converter",
   "bin": {
     "convert": "dist/bin/convert.js"
