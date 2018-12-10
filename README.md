@@ -9,11 +9,11 @@ Converter for XLS files into JSON format (CLI helper)
 Install procedure (global):
 1. Install nodejs (if nessesary);
 2. Install package globally:
-   `npm install -g xls-to-json`
+   `npm i -g xls-to-json-kholyk`
 3. Run converter as follows:
    `convert save source.xlsx destination.json sheet`
 
-Notice: Only source file (***source.xlsx***) is required, you can leave ***destination.json*** and ***sheet*** as blank or `null`, in this case putput file will be created as following pattern: ***source.xlsx***`.json`, first datasheet in a book will be used for compile result.
+Notice: Only source file (***source.xlsx***) is required, you can leave ***destination.json*** and ***sheet*** as blank or `null`, in this case output file will be created as following pattern: ***source.xlsx***.json, first datasheet in a book will be used for compile result.
 
 
 
